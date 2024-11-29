@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="icon" href="https://i.pinimg.com/564x/cc/af/b6/ccafb6780444e10d57e17e69c3c43581.jpg">
+
+</head>
+
+<style>
+    body{
+        background-color:#24275b;
+    }
+    /* Posision Del Mapa */
+    .rokan {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    }
+
+        .marg{
+            border-radius: 8%;
+            border: 0.4rem solid #24275b;
+        }
+
+        p{
+            font-size: 26px;
+            text-shadow: 
+            -1px -1px 0 #7239c3,
+            -1px 1px 0 #7239c3,
+            1px 1px 0 #7239c3,
+            1px -1px 0 #7239c3;
+        }
+            /* Flex Responsive */
+           
+            .flex-container {
+               display: flex;
+         flex-direction: row;
+                            }
+
+            @media screen and (max-width: 700px) {
+                .flex-conteiner {
+                    flex-direction: column;
+                }
+            }
+</style>
+
+<body>
+            <center>
+        <h1 style="color:#7239c3;"> INTERACION </h1>
+        <p style="color:white;">Pulsa El JDM, Gato y Letrero </p>
+            </center>
+
+    <!--Mapa Interactivo-->
+
+    <div class="rokan">
+        <div class="marg">
+
+   <!-- Mapa -->
+<img class="marg" src="https://i.pinimg.com/originals/95/ef/b8/95efb8425d270933e5e890b33ab5ef70.gif" usemap="#image-map">
+
+<map name="image-map">
+    <area target="" alt="Presentacion" title="Presentacion" href="Presentacion.html" coords="43,428,74,330,77,306,101,291,156,239,279,222,389,234,438,279,544,304,548,362,566,374,558,418,544,445,554,469,183,490" shape="poly">
+    <area target="" alt="Sobre Los Gustos De Leonardo" title="Hobbys" href="Hobbys.html" coords="768,417,757,422,733,406,730,371,769,349,799,378,774,398" shape="poly">
+    <area target="" alt="Contactame" title="Contacto" href="Contacto.html" coords="638,86,941,36,901,165,606,192,594,186" shape="poly">
+</map>
+
+
+    
+</body>
+</html>

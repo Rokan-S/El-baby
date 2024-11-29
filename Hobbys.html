@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobbys</title>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="icon" href="https://i.pinimg.com/564x/cc/af/b6/ccafb6780444e10d57e17e69c3c43581.jpg">
+</head>
+<!--Syle-->
+<style>         
+    /* Estilo de la barra de navegacion*/
+    .navbar {
+        display: flex;
+        background-color:black;
+    }
+
+    /* Contenedor de columnas*/
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /* Flex Responsive */
+    @media screen and (max-width: 700px) {
+            .row,
+            .navbar {
+                flex-direction: column;
+            }
+        }
+
+        /* Barra lateral*/
+    .side {
+        flex: 30%;
+        background-color:#24275b;
+        padding: 20px;
+    }
+     /* Columna principal*/
+     .main {
+        flex: 70%;
+        background-color:cornflowerblue;
+        padding: 20px;
+    }
+    h1{
+        color: white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 30px;
+    }
+    p{
+       color: white;
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       font-size: 20px;
+    }
+
+    .marg{
+        border-radius: 8%;
+        border: 0.4rem solid #24275b;
+    }
+
+    .marg2{
+        border-radius: 8%;
+        border: 0.1rem solid #000000;
+    }
+    .padd{
+        padding: 1%;
+    }
+    </style>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="https://i.pinimg.com/originals/44/8d/b5/448db5ae6690be065c457d64841ed7e6.gif" alt="Logo de la marca">
+        </div>
+        <nav>
+           <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="Presentacion.html">Presentacion</a></li>
+                <li><a href="Hobbys.html">Hobbys</a></li>
+           </ul>            
+        </nav>
+        <a class="btn" href="Contacto.html"><button>Contacto</button></a>
+    </header>
+       <!--Main 70%-->
+       <div class="main">
+        <center>
+        <h1>Miren Gustos De Leonardo</h1>
+        <p>Aqui lo pueden ver algunos platos preferidos de Garces</p>
+                                 <br><br> 
+                            <!--Imagenes 3-->     
+        <img class="marg2" src="https://belquistwist.com/wp-content/uploads/2023/08/dominican-pica-pollo-500x500.jpg" alt="..." width="200">
+        <img class="marg2" src="https://img.freepik.com/fotos-premium/deliciosa-hamburguesa-pollo-crujiente-imagen-alta-calidad_985236-269.jpg" alt="..." width="200">
+        <img class="marg2" src="https://www.cocinadominicana.com/wp-content/uploads/2022/10/dominican-yaroa-recipe-CG14744.jpg" alt="..." width="200">
+            <p></p>
+            <p style="font-size:30px;">La cancion que mas escucho</p> <br><br>
+            <h1>Traiciono-Papy Crish</h1>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2A5V74l6aotNGuIWOnXgno?utm_source=generator&theme=0" width="60%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <p>"Traiciono" de Papy Crish es una canción de reguetón que habla sobre el desamor y la traición. <br> Expresa el dolor por la infidelidad, resonando con muchos oyentes <br> y consolidando al artista en la música urbana.</p> <br><br>
+            <h1>Mente Lastima</h1>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3VbUzNULqUf07ULEBgxnCU?utm_source=generator&theme=0" width="60%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <p>"Mente Lástima" de Papy Crish trata sobre el desamor y la tristeza tras una ruptura. <br> Con un ritmo melódico, la canción refleja el dolor emocional <br> y conecta con quienes han vivido experiencias similares.</p>
+
+        </center>
+    </div>
+</div>
+
+</body>
+</html>

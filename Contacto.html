@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coctactame</title>
+    <link rel="icon" href="https://i.pinimg.com/564x/cc/af/b6/ccafb6780444e10d57e17e69c3c43581.jpg">
+    <link rel="stylesheet" href="navbar.css">
+</head>
+
+<!--Syle-->
+<style>         
+    /* Estilo de la barra de navegacion*/
+    .navbar {
+        display: flex;
+        background-color:black;
+    }
+
+    /* Contenedor de columnas*/
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /* Flex Responsive */
+    @media screen and (max-width: 700px) {
+            .row,
+            .navbar {
+                flex-direction: column;
+            }
+        }
+
+        /* Barra lateral*/
+    .side {
+        flex: 30%;
+        background-color:#24275b;
+        padding: 20px;
+    }
+     /* Columna principal*/
+     .main {
+        flex: 70%;
+        background-color:cornflowerblue;
+        padding: 20px;
+    }
+    h1{
+        color: white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 30px;
+    }
+    p{
+       color: white;
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       font-size: 20px;
+    }
+
+    .marg{
+        border-radius: 8%;
+        border: 0.4rem solid #24275b;
+    }
+
+    .marg2{
+        border-radius: 8%;
+        border: 0.1rem solid #000000;
+    }
+    .padd{
+        padding: 1%;
+    }
+    </style>
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <img src="https://i.pinimg.com/originals/44/8d/b5/448db5ae6690be065c457d64841ed7e6.gif" alt="Logo de la marca">
+        </div>
+        <nav>
+           <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="Presentacion.html">Presentacion</a></li>
+                <li><a href="Hobbys.html">Hobbys</a></li>
+           </ul>            
+        </nav>
+        <a class="btn" href="Contacto.html"><button>Contacto</button></a>
+    </header>
+    <center>
+        <br>
+        <h1>Contactos</h1>
+<br>
+            <p>Soy un estudiante del centro educativo marillac de informatica</p> <br>
+            <img class="marg2" src="https://m.media-amazon.com/images/S/amzn-author-media-prod/abakn4r0blo0u5bjsgaq2l71rk._SY450_CR0%2C0%2C450%2C450_.jpg" alt="Foto de garcés" width="250px"> <br>
+            <p>Mis gustos musicales son... las de la pagina. </p>
+        <p>Te puedes comunicar conmigo por los siquientes medios</p> >
+        <p>Gmail:garcesk456@gmail.com</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.9722290332984!2d-69.92389418893498!3d18.48491708252917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaf89c78951c3cf%3A0x505aaa4426118d4f!2sCentro%20Educativo%20Santa%20Luisa%20De%20Marillac!5e0!3m2!1ses!2sdo!4v1729626832422!5m2!1ses!2sdo" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </center>
+    
+    
+</body>
+</html>
